@@ -1,39 +1,60 @@
 body {
-	font-family: "Roboto", sans-serif;
-	font-size: 18px;
-	color: #000000;
-	background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  background-color: #ffffff;
 }
 .link {
-	text-decoration: none;
+  text-decoration: none;
 }
 .list {
-	list-style: none;
+  list-style: none;
 }
 
 .header {
-	background-color: #fafafa;
+  background-color: #fafafa;
+}
+
+.header-container {
+  width: 1440px;
+  display: flex;
+  align-items: center;
 }
 .nav {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 .logo {
-	font-family: "Homemade Apple", sans-serif;
-	font-size: 18px;
-	line-height: calc(39 / 18);
-	color: #231f20;
+  display: block;
+  margin-right: 433px;
+  padding: 39px 0;
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 18px;
+  line-height: calc(39 / 18);
+  color: #231f20;
 }
 .nav-list {
+  display: flex;
+  gap: 31px;
 }
 .nav-item {
 }
 .nav-link {
-	line-height: calc(22 / 18);
-	color: inherit;
+  display: block;
+  padding: 47px 0;
+  line-height: calc(22 / 18);
+  color: inherit;
 }
 .header-button {
-	line-height: calc(22 / 18);
-	color: #f7941e;
-	background-color: transparent;
-	border: 1px solid #f7941e;
-	border-radius: 5px;
+  width: 150px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: calc(22 / 18);
+  color: #f7941e;
+  background-color: transparent;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
 }
