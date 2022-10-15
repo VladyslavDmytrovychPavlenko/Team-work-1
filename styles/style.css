@@ -4,9 +4,11 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+
 .link {
   text-decoration: none;
 }
+
 .list {
   list-style: none;
 }
@@ -20,11 +22,13 @@ body {
   display: flex;
   align-items: center;
 }
+
 .nav {
   margin-right: auto;
   display: flex;
   align-items: center;
 }
+
 .logo {
   display: block;
   margin-right: 433px;
@@ -34,19 +38,23 @@ body {
   line-height: calc(39 / 18);
   color: #231f20;
 }
+
 .nav-list {
   display: flex;
   gap: 31px;
 }
-.nav-item {
-}
+
+.nav-item {}
+
 .nav-link {
   display: block;
   padding: 47px 0;
   line-height: calc(22 / 18);
   color: inherit;
 }
+
 .header-button {
+  cursor: pointer;
   width: 150px;
   height: 44px;
   display: flex;
@@ -58,3 +66,43 @@ body {
   border: 1px solid #f7941e;
   border-radius: 5px;
 }
+
+.header-button:hover,
+.header-button:focus {
+  background-color: #f7941e;
+  color: #FFFFFF;
+}
+
+/*HERO*/
+.hero {
+  background-color: #F1F1F2;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: calc(69 / 56);
+}
+
+.hero-text {
+  font-size: 20px;
+  line-height: calc(28 / 20);
+
+}
+
+.hero-button {
+  cursor: pointer;
+  background-color: #F7941E;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #231F20;
+}
+
+
+.hero-img {}
