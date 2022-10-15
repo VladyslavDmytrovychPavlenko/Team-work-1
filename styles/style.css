@@ -1,0 +1,39 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	background-color: #ffffff;
+}
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+
+.header {
+	background-color: #fafafa;
+}
+.nav {
+}
+.logo {
+	font-family: "Homemade Apple", sans-serif;
+	font-size: 18px;
+	line-height: calc(39 / 18);
+	color: #231f20;
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+	line-height: calc(22 / 18);
+	color: inherit;
+}
+.header-button {
+	line-height: calc(22 / 18);
+	color: #f7941e;
+	background-color: transparent;
+	border: 1px solid #f7941e;
+	border-radius: 5px;
+}
