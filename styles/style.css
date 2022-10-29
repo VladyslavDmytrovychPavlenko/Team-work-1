@@ -14,7 +14,7 @@ p {
   margin: 0;
 }
 
-.link {
+.list {
   text-decoration: none;
 }
 
@@ -55,9 +55,6 @@ p {
   gap: 31px;
 }
 
-.nav-item {
-}
-
 .nav-link {
   display: block;
   padding: 47px 0;
@@ -83,6 +80,29 @@ p {
 .header-button:focus {
   background-color: #f7941e;
   color: #ffffff;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.sing-up-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /*HERO*/
@@ -199,4 +219,24 @@ p {
 
 .list-item-container a {
   color: #000000;
+}
+
+.sing-up {
+  background-color: rgba(247, 148, 30, 1);
+  padding-top: 81px;
+  padding-bottom: 68px;
+}
+
+.sing-up-text-box {
+}
+
+.sing-up-text {
+}
+.sing-up-sub-text {
+}
+.sing-up-list {
+  display: flex;
+  gap: 16px;
+}
+.sing-up-button {
 }
